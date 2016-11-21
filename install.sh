@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo 'Downloading NS2 source'
-curl -L https://raw.githubusercontent.com/poz1/NS2/master/ns-allinone-2.35.tar.gz -o ns-allinone-2.35.tar.gz
+curl -L https://github.com/poz1/NS2/raw/fIles/ns-allinone-2.35.tar.gz -o ns-allinone-2.35.tar.gz
 echo 'Downloading NS2 patch'
-curl -L https://raw.githubusercontent.com/poz1/NS2/master/ns-allinone-2.35-patch.zip -o ns-allinone-2.35-patch.zip
+curl -L https://github.com/poz1/NS2/raw/fIles/ns-allinone-2.35-patch.zip -o ns-allinone-2.35-patch.zip
 
 echo 'Unzipping...'
 tar xvzf ns-allinone-2.35.tar.gz
